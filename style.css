@@ -4,3 +4,19 @@
     padding: 0;
     list-style-type: none;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100px;
+    display: flex;
+}
+.container .box{
+    width: 100px;
+    background-color: rgb(72, 179, 255);
+}
