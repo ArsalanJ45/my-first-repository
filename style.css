@@ -14,9 +14,14 @@ body{
 
 .container{
     height: 100px;
+    flex-flow: row wrap;
     display: flex;
+    gap: 5px
 }
 .container .box{
     width: 100px;
+    flex-grow: 1;
+    /* flex-basis: 100px; */
     background-color: rgb(72, 179, 255);
 }
+
